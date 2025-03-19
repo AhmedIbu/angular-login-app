@@ -78,11 +78,12 @@ Admin Password: admin123
 🔹 Regular Users must register manually.
 
 
-![ScreenShot-6](https://github.com/user-attachments/assets/cb61bb7f-36b0-44ed-a983-3abff4a2f25d)
-![ScreenShot-5](https://github.com/user-attachments/assets/46f161fa-db1f-40d8-9f13-6859ecc18080)
-![ScreenShot-4](https://github.com/user-attachments/assets/c968f786-870c-4cf4-bb15-a482f9a48ae3)
-![ScreenShot-3](https://github.com/user-attachments/assets/5a68fbe5-871a-451a-8ba9-3be6dae869ce)
-![ScreenShot-2](https://github.com/user-attachments/assets/07c1231e-566c-4750-b2d3-dac455a26a1c)
+📸 Screenshots:
 ![ScreenShot-1](https://github.com/user-attachments/assets/e25abf41-cd68-41f3-9e28-9d39b2c6dda7)
+![ScreenShot-2](https://github.com/user-attachments/assets/07c1231e-566c-4750-b2d3-dac455a26a1c)
+![ScreenShot-3](https://github.com/user-attachments/assets/5a68fbe5-871a-451a-8ba9-3be6dae869ce)
+![ScreenShot-4](https://github.com/user-attachments/assets/c968f786-870c-4cf4-bb15-a482f9a48ae3)
+![ScreenShot-5](https://github.com/user-attachments/assets/46f161fa-db1f-40d8-9f13-6859ecc18080)
+![ScreenShot-6](https://github.com/user-attachments/assets/cb61bb7f-36b0-44ed-a983-3abff4a2f25d)
 
 
