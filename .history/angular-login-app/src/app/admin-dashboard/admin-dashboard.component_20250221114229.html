@@ -1,0 +1,111 @@
+<div class="admin-dashbpard"></div>
+<div class="dashboard"></div>
+<h2 /* Apply a modern dark theme with gradient */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1e1e2f, #25253b, #303048);
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Dashboard container */
+.admin-dashboard {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05); /* Slight transparency */
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Header */
+.dashboard-header {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+th {
+  background: rgba(255, 255, 255, 0.2);
+  font-weight: bold;
+}
+
+tr:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Logout Button */
+.logout-btn {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 20px auto;
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.logout-btn:hover {
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  table {
+    font-size: 14px;
+  }
+  
+  .logout-btn {
+    width: 100%;
+  }
+}
+>Admin Dashboard</h2>
+<table border="1">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Number</th>
+        <th>Address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.phone }}</td>
+        <td>{{ user.address }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p *ngIf="errorMessage" style="color: red">{{ errorMessage }}</p>

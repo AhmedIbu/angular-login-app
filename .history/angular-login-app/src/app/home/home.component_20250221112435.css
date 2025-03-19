@@ -1,0 +1,62 @@
+/* Full-page background with dark aesthetic */
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #1e1e1e, #121212); /* Dark aesthetic gradient */
+  color: #ddd; /* Light grey text for contrast */
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Stylish welcome text */
+.home-container h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+/* Navigation links */
+nav {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+/* Glowing effect on hover */
+nav ul li a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  transform: scale(1.1);
+}
+
+/* Small text for extra effect */
+.home-container p {
+  margin-top: 10px;
+  font-size: 16px;
+  opacity: 0.8;
+}

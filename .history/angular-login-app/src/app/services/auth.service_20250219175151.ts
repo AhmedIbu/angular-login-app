@@ -1,0 +1,1 @@
+Property 'hasToken' does not exist on type 'AuthService'.ts

@@ -1,0 +1,70 @@
+/* Centering the register form */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #2b5876, #4e4376); /* Cool blue gradient */
+}
+
+/* Glassmorphism effect for the form */
+.register-box {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Styling form elements */
+.register-box h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.register-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Register button styles */
+.register-btn {
+  background: #1e3c72; /* Deep blue */
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.register-btn:hover {
+  background: #29539b; /* Lighter blue on hover */
+  transform: scale(1.05);
+}
+
+/* Style for the "Already have an account?" text */
+.register-box p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.register-box a {
+  color: #fff;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.register-box a:hover {
+  color: #00c6ff;
+}

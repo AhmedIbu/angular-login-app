@@ -1,0 +1,25 @@
+<div class="admin-dashbpard">
+
+<h1 class="dashboard-header">Admin Dashboard</h1>
+<table border="1">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Number</th>
+        <th>Address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.phone }}</td>
+        <td>{{ user.address }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+  <p *ngIf="errorMessage" style="color: red">{{ errorMessage }}</p>
