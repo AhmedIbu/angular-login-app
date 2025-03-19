@@ -21,13 +21,12 @@ This is a **login system** built using **Angular (Frontend) and Flask (Backend)*
 ### **Frontend**
 - Angular  
 - TypeScript  
-- HTML, CSS  
-- Bootstrap / Tailwind (if used)  
+- HTML, CSS   
 
 ### **Backend**
 - Flask (Python)  
 - Flask-RESTful (for API)  
-- SQLite (or PostgreSQL/MySQL if applicable)  
+- MySQL WorkBench (for DataBase)  
 
 ### **Version Control**
 - Git & GitHub  
